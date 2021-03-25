@@ -48,6 +48,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="showbuttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRS-Fj-cYg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -67,6 +70,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PR8-7F-KbK" secondAttribute="trailing" constant="132" id="l6b-eu-Qo4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLightView" destination="uEd-Kn-nuw" id="wSe-Uu-Cnz"/>
+                        <outlet property="redLightView" destination="PR8-7F-KbK" id="ZmS-Nr-jJb"/>
+                        <outlet property="startButton" destination="o4m-yc-eUR" id="EHm-Q4-pSD"/>
+                        <outlet property="yelloyLightView" destination="94W-Dx-M80" id="57k-k5-4dR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
